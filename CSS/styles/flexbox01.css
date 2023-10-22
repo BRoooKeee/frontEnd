@@ -18,10 +18,19 @@ h1 {
 
 section {
   display: flex;
+  /* 주축, 교차축 방향 지정 */
+  /* flex-direction: row; */
+
+  /* itme 줄 정렬 */
+  /* flex-wrap: wrap; */
+
+
+  /* flex-flow : row-reverse wrap */
 }
 
 article {
   padding: 10px;
   margin: 10px;
   background-color: aquamarine;
+  flex: 200px;
 }
