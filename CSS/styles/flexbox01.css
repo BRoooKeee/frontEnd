@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: tomato;
+  height: 100px;
+}
+
+h1 {
+  /* 가로 축 - 가운데 정렬 */
+  text-align: center;
+  color: white;
+  /* 요소의 전체 높이 동일하게 지정 :  세로 축 - 가운데 정렬 */
+  line-height: 100px;
+  margin: 0;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+  background-color: aquamarine;
+}
