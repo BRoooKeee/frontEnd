@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Floats</title>
+  <link rel="stylesheet" href="styles/floats.css">
+</head>
+<body>
+  <!-- 
+    float 속성
+      : 왼쪽 | 오른쪽으로 배치
+      : p태그와 같은 텍스트의 왼쪽이나 오른쪽에 이미지를 나란히 표시해야 하는 경우 사용
+      속성값
+        ? left : 해당 요소를 문서의 왼쪽에 배치
+        ? right : 해당 요소를 문서의 오른쪽에 배치
+        ? none(기본값) : 좌우 어느 쪽에도 배치하지X
+      : 가로 배치 시 요소에 기본 마진과 패딩 X
+    
+    clear 속성
+      : float 속성 해제
+      : float 속성을 사용하여 웹의 요소를 왼쪽 | 오른쪽 배치시 > 그 다음에 넣는 다음 요소에도 똑같이 속성이 전달
+      : float속성을 더 이상 유용하지 않도록 설정
+      속성값
+        ? left : float:left; 해제
+        ? right : float:left; 해제
+        ? both : float:left;와 float:right; 해제
+
+    display 속성
+      : 요소가 웹 페이지에서 어떻게 표시되는지를 결정
+      : 각 값에 따라 요소의 레이아웃과 동작이 달라짐
+      속성값
+        ? block
+          : 인라인 레벨 요소를 블록 레벨 요소로 전환
+        ? inline
+          : 블록 레벨 요소를 인라인 레벨 요소로 전환
+        ? inline-block
+          : 인라인 레벨 요소와 블록 레벨 요소 속성을 모두 가짐.
+          - inline처럼 새로운 줄 시작X
+          - block처럼 지정도니 가로와 세로 크기를 가짐, margin&padding 지정 O
+          - 수평 정렬된 메뉴(nav)나 버튼 목록 만들 때
+          - 요소 사이에 공백이 기본 지정
+        ? flex(inline-flex)
+          : inline-flex는 flex 속성을 갖지만 인라인 요소처럼 동작
+            - flex 컨테이너 내에서 인라인 요소로 배치
+            - 자식 요소들은 flex 아이템으로 유연성있게 배치
+        ? grid(inlin-grid)
+          : inline-grid는 grid의 inline버전
+   -->
+   <h1>간단한 float 예제</h1>
+
+   <div class="box">float</div>
+   <p class="special">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at diam sem. Curabitur placerat tempus cursus. Aliquam erat volutpat. Nunc vestibulum sapien vitae pulvinar faucibus. Nunc dictum fringilla turpis, vel semper turpis lacinia in. Integer vulputate imperdiet augue, sit amet laoreet nunc bibendum posuere. Etiam sit amet mattis sem, vel scelerisque dolor. Nam mattis suscipit semper. Nunc pellentesque sem sit amet odio viverra consequat. Fusce mollis purus sed mi dictum rhoncus. Mauris eros mi, gravida eget sollicitudin vel, bibendum nec eros. Curabitur egestas a neque et ultrices. Aliquam fringilla arcu eleifend, molestie ante eget, tristique ligula. Vivamus gravida dolor sit amet ex pharetra egestas. Donec luctus ullamcorper interdum. Donec fringilla semper diam, ut sollicitudin nulla mattis nec. Etiam malesuada justo a aliquam ornare.
+   </p>
+   <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at diam sem. Curabitur placerat tempus cursus. Aliquam erat volutpat. Nunc vestibulum sapien vitae pulvinar faucibus. Nunc dictum fringilla turpis, vel semper turpis lacinia in. Integer vulputate imperdiet augue, sit amet laoreet nunc bibendum posuere. Etiam sit amet mattis sem, vel scelerisque dolor. Nam mattis suscipit semper. Nunc pellentesque sem sit amet odio viverra consequat. Fusce mollis purus sed mi dictum rhoncus. Mauris eros mi, gravida eget sollicitudin vel, bibendum nec eros. Curabitur egestas a neque et ultrices. Aliquam fringilla arcu eleifend, molestie ante eget, tristique ligula. Vivamus gravida dolor sit amet ex pharetra egestas. Donec luctus ullamcorper interdum. Donec fringilla semper diam, ut sollicitudin nulla mattis nec. Etiam malesuada justo a aliquam ornare.
+   </p>
+   <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at diam sem. Curabitur placerat tempus cursus. Aliquam erat volutpat. Nunc vestibulum sapien vitae pulvinar faucibus. Nunc dictum fringilla turpis, vel semper turpis lacinia in. Integer vulputate imperdiet augue, sit amet laoreet nunc bibendum posuere. Etiam sit amet mattis sem, vel scelerisque dolor. Nam mattis suscipit semper. Nunc pellentesque sem sit amet odio viverra consequat. Fusce mollis purus sed mi dictum rhoncus. Mauris eros mi, gravida eget sollicitudin vel, bibendum nec eros. Curabitur egestas a neque et ultrices. Aliquam fringilla arcu eleifend, molestie ante eget, tristique ligula. Vivamus gravida dolor sit amet ex pharetra egestas. Donec luctus ullamcorper interdum. Donec fringilla semper diam, ut sollicitudin nulla mattis nec. Etiam malesuada justo a aliquam ornare.
+   </p>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+}
+.container > div {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}

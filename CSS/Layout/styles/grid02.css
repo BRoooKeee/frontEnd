@@ -1,0 +1,18 @@
+.container {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(auto-fix, minmax(200px, 1fr));
+  grid-auto-rows: 100px;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+.container > div, .grid-minmax > div {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+.grid-minmax {
+  display: grid;
+  grid-template-columns: minmax(100px, 300px) minmax(200px, 400px), minmax(50px, 150px);
+}
