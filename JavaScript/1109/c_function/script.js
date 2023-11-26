@@ -102,3 +102,10 @@ add(3, 5);  ->  소괄호 안의 3, 5는 인수
 function subtract(a, b) { return a-b;}
 let subtractResult = subtract(3, 5);
 // return 키워드가 없는 함수는 undefined를 반환
+
+// 함수 사용 시 지역변수와 전역변수
+let name = 'ssb'; //global variable
+function whoami() {
+  let myName = 'ssb'; //local variable
+  return myName;
+}
