@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 외부의 js파일을 가져옴. -->
+  <script src="script.js"></script>
+
+  <!-- script 태그 내에서 직접 js코드 사용 가능 -->
+  <script>
+    // ERROR : 식별자가 이미 사용되고 있음
+    // let pi = 3.14;
+    // console.log(`파이의 값은 ${pi}입니다.`);
+
+    {
+      let pi = 3.14;
+      console.log(`파이의 값은 ${pi}입니다.`);
+    }
+    // >> JS에서는 스코프 충돌을 방지하기 위해서 중괄호를 사용 | 함수를 생성하여 블록을 생성
+
+  </script>
+</body>
+</html>

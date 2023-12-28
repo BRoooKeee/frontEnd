@@ -1,0 +1,37 @@
+.user-list {
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.user {
+  padding: 10px;
+  border: 1px solid gray;
+  background-color: lightgray;
+}
+
+.search-container {
+  margin: 20px;
+  text-align: center;
+}
+
+#search-box {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.recent-searches {
+  margin: 20px;
+  text-align: center;
+}
+
+.recent-searches ul {
+  list-style: none;
+  padding: 0;
+}
